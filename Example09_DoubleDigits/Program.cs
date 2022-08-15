@@ -12,9 +12,9 @@ for (int i = 0; i < n; i++)
 }
 }
 
-double max = Double.MinValue;
 double MaxNumber()
 {
+double max = Double.MinValue;
 for (int j = 0; j < n; j++)
 {
     if (array[j] > max)
@@ -25,9 +25,9 @@ for (int j = 0; j < n; j++)
 return max;
 }
 
-double min = Double.MaxValue;
 double MinNumber()
 {
+double min = Double.MaxValue;    
 for (int k = 0; k < n; k++)
 {
     if (array[k] < min)
