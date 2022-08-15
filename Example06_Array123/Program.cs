@@ -11,9 +11,6 @@ for (int i = 0; i < n; i++)
 }
 }
 
-FillArray(array);
-Console.WriteLine();
-
 int count = 0;
 void CountElements()
 {
@@ -27,4 +24,6 @@ for (int j = 0; j < n; j++)
 Console.WriteLine($"Количество элементов из отрезка [10,99] равно {count}");
 }
 
+FillArray(array);
+Console.WriteLine();
 CountElements();
