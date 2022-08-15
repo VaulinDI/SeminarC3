@@ -13,11 +13,10 @@ for (int i = 0; i < n; i++)
 }
 }
 
-int counteven = 0;
-int countnoneven = 0;
-
 void EvenDigits()
 {
+int counteven = 0;
+int countnoneven = 0;
 for (int j = 0; j < n; j++)
 {
     if (array[j] % 2 == 0)
