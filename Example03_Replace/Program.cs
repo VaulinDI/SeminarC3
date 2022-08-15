@@ -12,9 +12,6 @@ for (int i = 0; i < n; i++)
 }
 }
 
-FillArray(array);
-Console.WriteLine();
-
 void Replace()
 {
 for (int j = 0; j < n; j++)
@@ -24,4 +21,6 @@ for (int j = 0; j < n; j++)
 }
 }
 
+FillArray(array);
+Console.WriteLine();
 Replace();
