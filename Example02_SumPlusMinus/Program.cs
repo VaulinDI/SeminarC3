@@ -12,9 +12,6 @@ for (int i = 0; i < n; i++)
 }
 }
 
-FillArray(array);
-Console.WriteLine(" ");
-
 int summinus = 0;
 int SumMinusDigits() 
 {
@@ -41,5 +38,8 @@ for (int k = 0; k < n; k++)
 return sumplus;
 }
 
+
+FillArray(array);
+Console.WriteLine(" ");
 Console.WriteLine($"Сумма отрицательных чисел массива равна:  {SumMinusDigits()}");
 Console.WriteLine($"Сумма положительных чисел массива равна:  {SumPlusDigits()}");
