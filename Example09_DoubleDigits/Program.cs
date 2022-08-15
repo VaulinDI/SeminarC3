@@ -12,9 +12,6 @@ for (int i = 0; i < n; i++)
 }
 }
 
-FillArray(array);
-Console.WriteLine();
-
 double max = Double.MinValue;
 double MaxNumber()
 {
@@ -41,6 +38,8 @@ for (int k = 0; k < n; k++)
 return min;
 }
 
+FillArray(array);
+Console.WriteLine();
 Console.WriteLine(MaxNumber());
 Console.WriteLine(MinNumber());
 Console.WriteLine(MaxNumber() - MinNumber());
