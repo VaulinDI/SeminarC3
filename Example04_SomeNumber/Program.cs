@@ -15,10 +15,9 @@ for (int i = 0; i < n; i++)
 Console.WriteLine("Введите число: ");
 int y = Convert.ToInt32(Console.ReadLine());
 
-int count = 0;
-
 void SomeNumber()
 {
+int count = 0;
 for (int j = 0; j < n; j++)
 {
     if (y == array[j])
@@ -35,7 +34,6 @@ else
     Console.WriteLine($"Числа {y} нет в заданном массиве");
 }
 }
-
 
 FillArray(array);
 Console.WriteLine();
