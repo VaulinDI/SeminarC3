@@ -12,9 +12,6 @@ for (int i = 0; i < n; i++)
 }
 }
 
-FillArray(array);
-Console.WriteLine();
-
 Console.WriteLine("Введите число: ");
 int y = Convert.ToInt32(Console.ReadLine());
 
@@ -39,4 +36,7 @@ else
 }
 }
 
+
+FillArray(array);
+Console.WriteLine();
 SomeNumber();
