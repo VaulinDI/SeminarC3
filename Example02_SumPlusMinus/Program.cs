@@ -12,9 +12,9 @@ for (int i = 0; i < n; i++)
 }
 }
 
-int summinus = 0;
 int SumMinusDigits() 
 {
+int summinus = 0;  
 for (int j = 0; j < n; j++)
 {
     if (array[j] < 0)
@@ -25,9 +25,9 @@ for (int j = 0; j < n; j++)
 return summinus;
 }
 
-int sumplus = 0;
 int SumPlusDigits() 
 {
+int sumplus = 0;   
 for (int k = 0; k < n; k++)
 {
     if (array[k] >= 0)
