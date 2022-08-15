@@ -12,9 +12,6 @@ for (int i = 0; i < n; i++)
 }
 }
 
-FillArray(array);
-Console.WriteLine();
-
 int sum = 0;
 void SumNoneven()
 {
@@ -28,4 +25,6 @@ for (int j = 0; j < n; j++)
 Console.WriteLine($"Сумма чисел массива, стоящих на нечетной позиции равна: {sum}");
 }
 
+FillArray(array);
+Console.WriteLine();
 SumNoneven();
