@@ -13,9 +13,6 @@ for (int i = 0; i < n; i++)
 }
 }
 
-FillArray(array);
-Console.WriteLine();
-
 int counteven = 0;
 int countnoneven = 0;
 
@@ -36,4 +33,6 @@ Console.WriteLine($"Количество четных чисел в массив
 Console.Write($"Количество нечетных чисел в массиве равно {countnoneven}");
 }
 
+FillArray(array);
+Console.WriteLine();
 EvenDigits();
